@@ -1,6 +1,5 @@
-export const doSomething = (): string => {
-    return 'Hello World!'
-}
+import { doSomething } from "./anExport"
+
 ;(async (): Promise<void> => {
     console.log(doSomething())
 })()
